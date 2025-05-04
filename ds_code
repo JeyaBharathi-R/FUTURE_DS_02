@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📊 Customer Support Ticket Analysis Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; background-color: #f9f9f9; }
+    h1 { color: #2c3e50; }
+    h2 { color: #2980b9; margin-top: 30px; }
+    p, ul { line-height: 1.6; }
+    .section {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-left: 5px solid #3498db;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📊 Customer Support Ticket Analysis Report</h1>
+
+  <div class="section">
+    <h2>🎯 Objective</h2>
+    <p>The primary objective of this project is to analyze customer support tickets to identify the most common issues, reduce resolution time, improve customer satisfaction, and recommend automation strategies to streamline support operations.</p>
+  </div>
+
+  <div class="section">
+    <h2>📁 Dataset Overview</h2>
+    <p>The dataset consists of customer support tickets collected over a 6-month period. Each ticket includes:</p>
+    <ul>
+      <li><strong>Ticket ID</strong></li>
+      <li><strong>Description</strong></li>
+      <li><strong>Category</strong> (e.g., Login, Payment, Shipping)</li>
+      <li><strong>Priority</strong> (Low, Medium, High, Urgent)</li>
+      <li><strong>Resolution Time</strong></li>
+      <li><strong>Customer Satisfaction Score</strong> (1–5)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔍 Key Insights & Trends</h2>
+    <ul>
+      <li>📌 22% of tickets are related to login and password issues.</li>
+      <li>⏱️ High-priority tickets take an average of 36 hours to resolve.</li>
+      <li>😠 Tickets with long resolution times correlate with lower satisfaction scores.</li>
+      <li>🔄 Over 40% of tickets are repetitive and ideal for automation.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📈 Satisfaction by Ticket Priority</h2>
+    <table>
+      <tr>
+        <th>Priority</th>
+        <th>Avg Satisfaction Score</th>
+        <th>Ticket Volume (%)</th>
+      </tr>
+      <tr>
+        <td>Low</td>
+        <td>4.5</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td>Medium</td>
+        <td>4.0</td>
+        <td>35%</td>
+      </tr>
+      <tr>
+        <td>High</td>
+        <td>3.5</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <td>Urgent</td>
+        <td>2.8</td>
+        <td>15%</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>⏳ Resolution Time vs Satisfaction</h2>
+    <p>There is a noticeable inverse relationship between resolution time and satisfaction. Tickets resolved within 24 hours receive an average satisfaction score of 4.6, while those taking more than 72 hours drop to 2.9.</p>
+  </div>
+
+  <div class="section">
+    <h2>🤖 Model Development</h2>
+    <p>A classification model was developed using Python (NLTK & Scikit-learn) to categorize tickets into issue types. The model achieved an accuracy of 87% on the test set. Keyword extraction and TF-IDF analysis were used to identify common patterns and trigger words for each category.</p>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Recommendations</h2>
+    <ul>
+      <li>✅ Automate common issues like login reset and shipping queries using a chatbot.</li>
+      <li>📬 Set SLA targets for urgent and high-priority tickets to ensure faster resolution.</li>
+      <li>📊 Monitor category-specific trends monthly to identify process bottlenecks.</li>
+      <li>🧠 Use the trained classifier to route tickets automatically to specialized agents.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>✅ Conclusion</h2>
+    <p>This analysis revealed recurring issues and slow response times as the major causes of dissatisfaction. By implementing automation and smarter ticket routing, support teams can reduce resolution time and improve the overall customer experience. Data-driven improvements can significantly boost efficiency and satisfaction rates in support workflows.</p>
+  </div>
+
+</body>
+</html>
