@@ -1,0 +1,54 @@
+📄 Executive Summary: Customer Support Ticket Analysis
+Objective:
+The goal of this analysis is to identify common issues reported via customer support tickets, assess their impact on resolution time and customer satisfaction, and recommend data-driven strategies to improve support efficiency and responsiveness.
+
+Dataset Overview:
+
+Total Tickets Analyzed: 501
+
+Fields Included: Priority, Topic, Resolution Time, SLA Compliance, Survey Results
+
+Timeframe: January–March 2023
+
+Support Channel: Primarily Chat
+
+Agent Group: 1st Line Support
+
+Key Findings:
+
+🔁 Top Issues: Product setup, bug reports, and account access
+
+🕒 Resolution Time Impact:
+
+<24 hrs → Avg Satisfaction: 4.6
+
+72 hrs → Avg Satisfaction: 2.8
+
+🔺 High & Urgent Priority Tickets: Frequently violate SLA and show lowest satisfaction
+
+🌍 Major Regions: Germany, Czech Republic, and Poland
+
+❌ SLA Violations: More common in urgent tickets; need better tracking
+
+Insights:
+
+45% of tickets are repetitive—suitable for automation
+
+First response time is a critical factor in satisfaction
+
+Survey participation rate is about 46% (230 out of 501)
+
+Recommendations:
+
+🤖 Automate repetitive tasks (password resets, setup guidance)
+
+⏱️ Implement SLA Alerts for time-sensitive tickets
+
+📊 Monitor Agent Performance using satisfaction scores
+
+📈 Use NLP Models for issue classification and auto-routing
+
+🧠 Prioritize Urgent Cases with tighter SLAs and smarter allocation
+
+Conclusion:
+Customer satisfaction is highly tied to timely responses and issue resolution. Strategic automation, SLA management, and intelligent ticket routing can significantly enhance the overall support experience, reduce workload on agents, and boost customer trust.
